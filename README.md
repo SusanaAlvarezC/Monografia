@@ -1,4 +1,4 @@
-# Titulo: dentificar pérdidas de energía no técnicas, mediante la reducción de casos de fraude, utilizando datos recopilados de inspecciones en un período de dos años.
+# Titulo: Identificar pérdidas de energía no técnicas, mediante la reducción de casos de fraude, utilizando datos recopilados de inspecciones en un período de dos años.
 ## Documentación: Especilización en Analítica & Ciencia de Datos
 ### Autores: **Susana Álvarez, Luis Román**
 
