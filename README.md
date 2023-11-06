@@ -2,17 +2,24 @@
 ## Documentación: Especialización en Analítica & Ciencia de Datos
 ## Autores: _Susana Álvarez, Luis Román_ 
 
+## INTRODUCCIÓN
+
+> Este repositorio contiene el notebook usado para el procesamiento de los datos crudos en la identificación de las perdidas no técnicas de consumo de energía. Durante el proceso de limpieza de datos, se llevó a cabo una significativa reducción del conjunto original que constaba de 377 variables numéricas y 9105 registros, quedando finalmente con 68 variables y 9101 registros. Las estrategias empleadas se centraron en:
+
+    * Tratamiento de valores nulos.
+    * Eliminación de duplicados y variables numéricas con valores en 0.
+    * Remoción de aquellas variables que mostraban una alta correlación.
+
+
+
 ### Requisitos
 
-Asegúrate de tener instalado lo siguiente:
+Se debe tener instalado lo siguiente:
 
-- tener Git : https://git-scm.com/
+- Git : https://git-scm.com/
 - Visual Studio : https://code.visualstudio.com/
 
 
-## INTRODUCCIÓN
-
-> Este repositorio contiene el notebook usado para el reprocesamiento de los datos crudos en la identificación de las perdidas no  técnicas de consumo de energía. La data original contiene 9105 registros y 377 variables numéricas. Para abordar este proyecto se usará 68 variables de interés. En la detección de instalaciones fraudulentas.
 
 ### Comandos de Git para descargar el proyecto:
 
