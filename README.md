@@ -51,4 +51,4 @@ Para la manipulacion de los datos se usaron las librerias pandas, numpy, math, m
 
 ## Hallazgos
 
-?
+En el tratamiento de datos se evidencio que nuestra variable de salida "was_fraud" presenta un sobre muestreo. Por tal motivo se procederá a igualar la variable minoritaria para igualar el número de muestras entre las diferentes clases y así poder entrenar mejor el modelo seleccionado.
