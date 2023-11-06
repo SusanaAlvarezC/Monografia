@@ -35,7 +35,7 @@ git push
 
 https://colab.research.google.com/drive/1TIZTtkm0YYHBBmEIBcGBPnVyRyhJh_t0?usp=drive_link
 
-1. Copia el anterior enlace en tu navedador.
+1. Copia el anterior enlace en tu navegador.
 2. Tener una cuenta de Google para usar Colab:
 
 
