@@ -38,12 +38,10 @@ git commit -m "Descripción de tus cambios"
 git push
 ```
 
-## Ejecutar el script desde el navegador
+## Ejecutar el script desde colaboratory
 
-https://colab.research.google.com/drive/1TIZTtkm0YYHBBmEIBcGBPnVyRyhJh_t0?usp=drive_link
-
-1. Copia el anterior enlace en tu navegador.
-2. Tener una cuenta de Google para usar Colab:
+1. Ingrese al siguiente enlace: [https://colab.research.google.com/drive/1TIZTtkm0YYHBBmEIBcGBPnVyRyhJh_t0?usp=drive_link](https://colab.research.google.com/drive/1TWlhyVF5E8TiixklycfyGWNnayIAZoiZ?usp=sharing)
+2. Ejecute linea por linea para seguir la secuencia de código
 
 
 ## Implementación
@@ -58,4 +56,4 @@ Para la manipulacion de los datos se usaron las librerias pandas, numpy, math, m
 
 ## Hallazgos
 
-En el tratamiento de datos se evidencio que nuestra variable de salida "was_fraud" presenta un sobre muestreo. Por tal motivo se procederá a igualar la variable minoritaria para igualar el número de muestras entre las diferentes clases y así poder entrenar mejor el modelo seleccionado.
+En el tratamiento de datos se evidenció que la variable de salida "was_fraud" presenta un sobre muestreo. Por tal motivo se igualó la variable minoritaria para balancear el número de muestras entre las diferentes clases y así poder entrenar mejor el modelo seleccionado.
