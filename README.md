@@ -11,6 +11,14 @@
     * Remoción de aquellas variables que mostraban una alta correlación.
 
 
+## EJECUCIÓN CÓDIGO
+
+### Ejecutar el script desde colaboratory
+
+1. Ingrese al siguiente enlace: [https://colab.research.google.com/drive/1TIZTtkm0YYHBBmEIBcGBPnVyRyhJh_t0?usp=drive_link](https://colab.research.google.com/drive/1TWlhyVF5E8TiixklycfyGWNnayIAZoiZ?usp=sharing)
+2. Ejecute linea por linea para seguir la secuencia de código
+
+## COLABORACIÓN 
 
 ### Requisitos
 
@@ -18,8 +26,6 @@ Se debe tener instalado lo siguiente:
 
 - Git : https://git-scm.com/
 - Visual Studio : https://code.visualstudio.com/
-
-
 
 ### Comandos de Git para descargar el proyecto:
 
@@ -29,22 +35,16 @@ cd Monografia/
 code .
 ```
 
-#### Comandos de Git para contribuir con el proyecto:
+### Comandos de Git para contribuir con el proyecto:
 
 * Para subir cambios al repositorio colaborativo, ir a Git Bash y ejecutar los siguientes comandos:
 ```
 git add .
-git commit -m "Descripción de tus cambios"
+git commit -m "Descripción de cambios"
 git push
 ```
 
-## Ejecutar el script desde colaboratory
-
-1. Ingrese al siguiente enlace: [https://colab.research.google.com/drive/1TIZTtkm0YYHBBmEIBcGBPnVyRyhJh_t0?usp=drive_link](https://colab.research.google.com/drive/1TWlhyVF5E8TiixklycfyGWNnayIAZoiZ?usp=sharing)
-2. Ejecute linea por linea para seguir la secuencia de código
-
-
-## Implementación
+### Implementación
 
 Se utilizó la librería “requests” en Python para hacer una solicitud HTTP a la ubicación del conjunto de datos en GitHub y usarlo en el procesamiento de datos crudos. Y así convertir el contenido descargado a un objeto StringIO para poder leerlo como archivo .CSV
 
