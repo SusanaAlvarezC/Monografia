@@ -10,6 +10,7 @@
     * Eliminación de duplicados y variables numéricas con valores en 0.
     * Remoción de aquellas variables que mostraban una alta correlación.
 
+Sábana original de datos: https://github.com/SusanaAlvarezC/Monografia/blob/main/consumos_energia.csv 
 
 ## EJECUCIÓN CÓDIGO
 
@@ -17,6 +18,8 @@
 
 1. Ingrese al siguiente enlace: [https://colab.research.google.com/drive/1TIZTtkm0YYHBBmEIBcGBPnVyRyhJh_t0?usp=drive_link](https://colab.research.google.com/drive/1TWlhyVF5E8TiixklycfyGWNnayIAZoiZ?usp=sharing)
 2. Ejecute linea por linea para seguir la secuencia de código
+
+Código: https://github.com/SusanaAlvarezC/Monografia/blob/main/Monograf%C3%ADaDetecci%C3%B3nFraudes.ipynb
 
 ## COLABORACIÓN 
 
@@ -57,3 +60,6 @@ Para la manipulacion de los datos se usaron las librerias pandas, numpy, math, m
 ### Hallazgos
 
 En el tratamiento de datos se evidenció que la variable de salida "was_fraud" presenta un sobre muestreo. Por tal motivo se igualó la variable minoritaria para balancear el número de muestras entre las diferentes clases y así poder entrenar mejor el modelo seleccionado.
+
+
+Resultado despúes del tratamienteo de datos: https://github.com/SusanaAlvarezC/Monografia/blob/main/resultado_final_consumos.csv
