@@ -44,16 +44,16 @@ git commit -m "Descripción de cambios"
 git push
 ```
 
-### Implementación
+## Implementación
 
 Se utilizó la librería “requests” en Python para hacer una solicitud HTTP a la ubicación del conjunto de datos en GitHub y usarlo en el procesamiento de datos crudos. Y así convertir el contenido descargado a un objeto StringIO para poder leerlo como archivo .CSV
 
 
-## Tratamiento de datos
+### Tratamiento de datos
 
 Para la manipulacion de los datos se usaron las librerias pandas, numpy, math, matplotlib y seaborn de Python para realizar una limpieza de datos, eliminando los valores atípicos, imputando los valores faltantes y remplazandolos por la media. También se implementaron gráficos de dispersión y matriz de correlación para observar como se comportaban la variables.   
 
 
-## Hallazgos
+### Hallazgos
 
 En el tratamiento de datos se evidenció que la variable de salida "was_fraud" presenta un sobre muestreo. Por tal motivo se igualó la variable minoritaria para balancear el número de muestras entre las diferentes clases y así poder entrenar mejor el modelo seleccionado.
