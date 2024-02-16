@@ -1,10 +1,16 @@
-# Título: Identificar pérdidas de energía no técnicas, mediante la reducción de casos de fraude, utilizando datos recopilados de inspecciones en un período de dos años.
-## Documentación: Especialización en Analítica & Ciencia de Datos
-## Autores: _Susana Álvarez, Luis Román_ 
+Laboratory I - Dimensionality Reduction. Machine Learning II
 
-## INTRODUCCIÓN
 
-> Este repositorio contiene el notebook usado para el procesamiento de los datos crudos en la identificación de las perdidas no técnicas de consumo de energía. Durante el proceso de limpieza de datos, se llevó a cabo una significativa reducción del conjunto original que constaba de 377 variables numéricas y 9105 registros, quedando finalmente con 68 variables y 9101 registros. Las estrategias empleadas se centraron en:
+Data structures (properties of lists, tuples, dicts, built-in modules...)
+- Classes
+- Packages and modules
+
+# Title: Laboratory I - Dimensionality Reduction. Machine Learning II
+## Prerequisites: Data structures (properties of lists, tuples, dicts, built-in modules. Classes, Packages and modules
+
+## INTRODUCTION
+
+> This workshop is structured into ten thematic areas, each focusing on different aspects of data analysis and machine learning. We will start by generating random rectangular matrices and performing basic matrix operations. Then, we will move on to image processing, where we will manipulate and analyze facial images. Following that, we will dive into the implementation of unsupervised learning algorithms, including Singular Value Decomposition (SVD), Principal Component Analysis (PCA), and t-distributed Stochastic Neighbor Embedding (t-SNE).:
 
     * Tratamiento de valores nulos.
     * Eliminación de duplicados y variables numéricas con valores en 0.
